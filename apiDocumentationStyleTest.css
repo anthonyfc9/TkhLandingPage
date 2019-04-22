@@ -1,0 +1,73 @@
+/* generally used tags in the documention */
+body {font-family: 'lato';
+}
+
+.textYellow{
+    color:#febc00 !important;
+}
+.textPurple{
+    color:#332459 !important;
+}
+.textWhite{
+    color: #ffffff !important;
+}
+/* nav bar css begins here */
+.navbar-dark{
+    background-color: #332459 !important;
+}
+#logoTop{
+    height:50px;
+    padding-bottom: 5px;
+}
+.bg-dark{
+    background-color: #332459 !important;
+}
+.topics{
+    margin-top: 1.75vh;
+    margin-bottom: 1.75vh;
+}
+.topic10{margin-top: 2vh}
+
+.headings{
+    margin:20px;
+    font-size: 1.7em;
+    text-align: center;
+}
+/* nav bar css ends here */
+
+.overFlowingMid{
+    height:89vh;
+    overflow-y: scroll;
+}
+.overFlowingEnd{
+    height: 89vh;
+    overflow-y: scroll;
+}
+.screenShots{
+    width:35vw;
+    height: auto;
+}
+
+
+
+
+.backgroundEnd{
+    background-color: #393939;
+}
+.headingsEnd{
+    background-color: #161616;
+    color: #332459;
+    border: 1px;
+    border-color: #332459;
+    margin:4px 2px;
+    border-radius: 10px;
+}
+
+
+.col-12.col-md-2{
+    padding-left: 0px;
+    padding-right: 0px
+}
+.oofers > a{
+position: relative
+}
