@@ -1,0 +1,359 @@
+/* general css used all around the site */
+h1{
+    font-size: 2rem
+}
+.textWhite{
+    color: #ffffff
+    }
+
+.textYellow{
+        color:#ffd249;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    
+body {font-family: 'lato';
+}
+
+.textPurple{
+    color: #332459 !important;
+}
+
+
+/* nav bar css */
+
+/* Style the links inside the navigation bar */
+a.navAni {
+    color: #332459 !important;
+    display: block;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 0;
+       float:left;
+    position: relative;
+  }
+  
+  /* Change the color of links on hover */
+   a.navAni:hover {
+    color: #FFD249 !important;
+    -webkit-transition: all 0.3s ease-in-out 0s; 
+    transition: all 0.3s ease-in-out 0s;
+  }
+   a.navAni:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFD249;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  a.navAni:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+@media (max-width: 991.98px){.bd-navbar .navbar-nav-scroll {
+    max-width: 100%;
+    height: 2.5rem;
+    margin-top: .25rem;
+    overflow: hidden;}
+}
+
+.navWhite{
+    padding-right: .5rem;
+    padding-left: .5rem;
+
+}
+
+@media (max-width: 991.98px){
+.bd-navbar-nav{
+    padding-bottom: 2rem;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+}
+.headerColor{
+    background-color: white;
+}
+/* uses this css button for the log in's and the aboutTkh buttons */
+.btn-warning {
+    color: #332459 ;
+    background-color:#ffd249 ;
+    border-color:#ffd249;
+    border-radius: 40px;
+}
+/* end of nav bar */
+
+
+
+/* image on top with purple start */
+.topPic{
+    background-image: url(../img/coder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+    padding: 0 !important;
+    background-attachment: fixed;
+    /*.bgImage {padding: 0%;} dont think i need this...just in case*/
+}
+
+.boxOver{
+    background-color: #332459;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.textOverlay {
+    left: 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    }
+@media(max-height:450px){
+    .textOverlay {
+    left: 0;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    font-size: 10pt;
+    }
+}
+.textUnderHead{
+    margin-top: 3%
+}
+/* image on top purple end */
+
+
+
+
+
+
+/* css for the why us section start */
+
+.textEfficient{
+    padding-left: 5%
+}
+
+.textImprovement{
+    padding-right: 5%
+}
+
+.whyUsPadding{
+padding-top: 15pt;
+padding-bottom :15pt;
+}
+
+/* css for the why us section end */
+
+
+
+/* css for bottom picture */
+.bottomPic{
+    background-image: url(../img/codePeep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+    /* padding: 0 !important; */
+    /*.bgImage {padding: 0%;} dont think i need this...just in case*/
+}
+
+.boxOverBottom{
+    background-color: #332459;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bottomTextOverlay{
+position: relative;
+bottom:80%;
+left: 0;
+width: 100%;
+}
+@media(max-height:450px){
+    .bottomTextOverlay{
+        position: relative;
+        bottom:97%;
+        left: 0;
+        width: 100%;
+        font-size:15px;
+        }
+        h1.bottomHeading{
+            font-size: 1.2rem
+        }
+}
+
+
+/* css for the end section */
+.endSec{
+height:100%;
+width: 100%;
+background-color: #ffd249 ;
+margin-right: 0%;
+margin-left: 0%;
+padding-top: 1%;
+}
+
+.socialMedia {
+    margin-top: 10px;
+height: 35px;
+width:auto;
+margin-left:15px;
+margin-right:15px;
+margin-bottom:10px;
+}
+
+.btn-primary{
+    background-color:#ffd249 ;
+    border-color: #332459;
+    color: #332459;
+  size: 5vh;
+}
+
+.btn-danger{
+    color: #ffffff ;
+    background-color:#332459 ;
+    border-color: #332459;
+    border-radius: 40px;
+    font-size: 1.25em;
+}
+.dropdown-menu{
+    position: absolute;
+    right: 0;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    
+}
+
+.textPurpleEnd{
+    color: #332459;
+    margin-bottom:20px;
+}
+ @media(max-width:1000px){
+    .logoAtEnd{
+        height: 60px;
+        width:auto;
+    }
+    
+} 
+@media(min-width:1000px){
+    .logoAtEnd{
+      content:url(/img/tkhLogo.png);
+      height:32px;
+      width:auto;
+  }
+    }
+/*log in page starts here*/
+
+@media(min-width:1000px){
+    .username{
+     margin-top: 30px;
+    width:400px;
+    height: 50px;
+    border-radius: 30px;
+    border-color:#493e7d;
+    border-style: solid;
+    }   
+    .password{
+        margin-top:30px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 50px;
+        border-radius: 30px;
+        border-color:#493e7d;
+        border-style: solid;
+    }
+    .passwordConfirm{
+        margin-bottom: 30px;
+        width: 400px;
+        height: 50px;
+        border-radius: 30px;
+        border-color:#493e7d;
+        border-style: solid;
+    }   
+    .email{
+        margin-top: 30px;
+       width:400px;
+       height: 50px;
+       border-radius: 30px;
+       border-color:#493e7d;
+       border-style: solid;
+       }     
+}
+@media (max-width:999px){
+.loginPageBackground{
+    background-color:   #493e7d ;
+    height: 140vh;
+    width:100%;
+    padding:0px
+    }
+    
+    .loginBox{
+        background-color: #ffffff;
+        height: 120vh;
+        width: 90vw;
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        position: absolute;
+
+    }
+    .username{
+     margin-top: 30px;
+    width:250px;
+    height: 50px;
+    border-radius: 30px;
+    border-color:#493e7d;
+    border-style: solid;
+    }   
+    .password{
+        margin-top:30px;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 50px;
+        border-radius: 30px;
+        border-color:#493e7d;
+        border-style: solid;
+    }
+    .passwordConfirm{
+        margin-bottom: 30px;
+        width: 250px;
+        height: 50px;
+        border-radius: 30px;
+        border-color:#493e7d;
+        border-style: solid;
+    }   
+    .email{
+        margin-top: 30px;
+       width:270px;
+       height: 50px;
+       border-radius: 30px;
+       border-color:#493e7d;
+       border-style: solid;
+       }     
+}
+.loginSignUpButton{
+margin-bottom: 30px;
+background-color: #ffd249;
+text-decoration-color: #493e7d;
+font-size: 1.5rem;
+border: none;
+border-radius: 25px;
+padding: 7px;
+width: 100px
+}

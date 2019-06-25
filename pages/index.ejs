@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<% include ../partials/head %>
+<% include ../partials/header %>
+
+<!-- this is the image with a purple filter on top -->
+<div>
+    <div class="container-fluid topPic p-0">
+      <div class="boxOver p-0 m-0">
+      </div>
+    </div>
+    <div class="textOverlay text-center textWhite">
+      <h1>Start using the TKH LMS today!</h1>
+      <p class="textUnderHead textYellow">TheKnowledgeHouse is about providing the tools necessary to teach our alumni to succeed.
+         find out how You can benifit from using TheKnowledgeHouse's Learning manegment system</p>
+         <br>
+
+         <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".login-modal-lg"><b>&ensp;Log In/Sign Up&ensp;</b></button>
+
+         <div class="modal fade login-modal-lg" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+           <div class="modal-dialog modal-lg">
+
+
+             <div class="modal-content text-center">
+                    <button type="button" class="close text-right m-1" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+
+
+                     <h1 class="textPurple m-3">Log In</h1>
+                     <form action="" method="post">
+                     <input class="username" type="text" placeholder="   Username" required>  </br>
+                     <input type="password" class="password" placeholder="   Password" required>   </br>
+                     <input type="submit" class='loginSignUpButton'value="log in">   </br>
+                     
+                     </form>
+                     <h1 class="textPurple">Dont have an account? sign up.</h1>
+                     
+                     
+                     <form action="" method="post">
+                             <input class="email" type="email" placeholder="   email e.g. name@yourEmailSite.com" required>  </br>
+                             <input type="password" class="password" placeholder="   Password (atleast 8 characters)" required>   </br>
+                             <input type="password" class="passwordConfirm" placeholder="   confirm Password" required>   </br>
+                             <input type="submit" class='loginSignUpButton'value="sign up">   </br>
+                             
+                             </form>
+             </div>
+           </div>
+         </div>
+    </div>
+    </div>
+    
+    
+    <!-- this is the why us section div -->
+    <div class="container">
+    <!---this is the why us section-->
+      <H1 class="text-center textPurple whyUsPadding">Why Us?</H1>
+    
+      <div class="row">
+          <div data-aos="fade-up" class="col text-center whyUsPadding"><img src="img/Efficient.jpg">
+            <h1 class="textPurple">efficient!</h1>
+            <p class="textPurple textEfficient">Our LMS offers efficient systems and techniques to facilitate learning.</p></div>
+          <div data-aos="fade-up" class="col text-center whyUsPadding"><img src="img/New.jpg" alt="New Technologies">
+            <h1 class="textPurple">New!</h1>
+            <P class="textPurple">Our LMS uses the most modern technology and most up to date practices.</P></div>
+          <div data-aos="fade-up" class="col text-center whyUsPadding"><img src="img/Improve.jpg" alt="improve productivity">
+            <h1 class="textPurple">Improvement!</h1>
+            <P class="textPurple textImprovement">Our LMS is a great way to boost YOUR Skill and help improve on the skills you already have.</P></div>
+        </div>
+    </div>
+    
+    
+    <!-- improve Efficiency tab -->
+        <div class="container-fluid bottomPic p-0">
+          <div class="boxOverBottom p-0 m-0">
+          </div>
+          <div data-aos="zoom-in" class="bottomTextOverlay text-center textWhite">
+
+         <h1 class='bottomHeading'>Improve Efficiency! <br> Why Wait?</h1>
+            <p class="textUnderHead textYellow">the more you wait  the closer the competition gets, dont let them catch up
+             start using the most modern, efficient, and effective LMS today!</p>
+            <br>
+            <h1 class="bottomHeading">Already have an account?</h1>
+    
+             <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".login-modal-lg"><b>&ensp;Log In&ensp;</b></button>
+          </div>
+        </div>
+    <% include ../partials/footer %>
+    </body>
+    </html>
